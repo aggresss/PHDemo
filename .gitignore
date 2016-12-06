@@ -1,2 +1,3 @@
 *.o
 *.order
+*.o.cmd
