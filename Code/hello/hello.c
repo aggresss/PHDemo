@@ -213,7 +213,6 @@ static void hello_create_proc(void) {
 	entry = create_proc_entry(HELLO_DEVICE_PROC_NAME, 0, NULL);
 	if(entry)
 	{
-		entry->owner = THIS_MODULE;
 		entry->read_proc = hello_proc_read;
 		entry->write_proc = hello_proc_write;
 	}
