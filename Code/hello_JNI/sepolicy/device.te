@@ -1,0 +1,98 @@
+# Device types
+type device, dev_type, fs_type;
+type alarm_device, dev_type, mlstrustedobject;
+type adb_device, dev_type;
+type ashmem_device, dev_type, mlstrustedobject;
+type audio_device, dev_type;
+type binder_device, dev_type, mlstrustedobject;
+type block_device, dev_type;
+type camera_device, dev_type;
+type dm_device, dev_type;
+type loop_device, dev_type;
+type pmsg_device, dev_type, mlstrustedobject;
+type radio_device, dev_type;
+type ram_device, dev_type;
+type rtc_device, dev_type;
+type vold_device, dev_type;
+type console_device, dev_type;
+type cpuctl_device, dev_type;
+type fscklogs, dev_type;
+type full_device, dev_type;
+# GPU (used by most UI apps)
+type gpu_device, dev_type, mlstrustedobject;
+type graphics_device, dev_type;
+type hw_random_device, dev_type;
+type input_device, dev_type;
+type kmem_device, dev_type;
+type log_device, dev_type, mlstrustedobject;
+type mtd_device, dev_type;
+type mtp_device, dev_type, mlstrustedobject;
+type nfc_device, dev_type;
+type ptmx_device, dev_type, mlstrustedobject;
+type kmsg_device, dev_type;
+type null_device, dev_type, mlstrustedobject;
+type random_device, dev_type, mlstrustedobject;
+type sensors_device, dev_type;
+type serial_device, dev_type;
+type socket_device, dev_type;
+type owntty_device, dev_type, mlstrustedobject;
+type tty_device, dev_type;
+type urandom_device, dev_type, mlstrustedobject;
+type video_device, dev_type;
+type vcs_device, dev_type;
+type zero_device, dev_type, mlstrustedobject;
+type fuse_device, dev_type;
+type iio_device, dev_type;
+type ion_device, dev_type, mlstrustedobject;
+type gps_device, dev_type;
+type qtaguid_device, dev_type;
+type watchdog_device, dev_type;
+type uhid_device, dev_type;
+type uio_device, dev_type;
+type tun_device, dev_type, mlstrustedobject;
+type usbaccessory_device, dev_type, mlstrustedobject;
+type usb_device, dev_type, mlstrustedobject;
+type klog_device, dev_type;
+type properties_device, dev_type;
+
+# All devices have a uart for the hci
+# attach service. The uart dev node
+# varies per device. This type
+# is used in per device policy
+type hci_attach_dev, dev_type;
+
+# All devices have a rpmsg device for
+# achieving remoteproc and rpmsg modules
+type rpmsg_device, dev_type;
+
+# Partition layout block device
+type root_block_device, dev_type;
+
+# factory reset protection block device
+type frp_block_device, dev_type;
+
+# System block device mounted on /system.
+type system_block_device, dev_type;
+
+# Recovery block device.
+type recovery_block_device, dev_type;
+
+# boot block device.
+type boot_block_device, dev_type;
+
+# Userdata block device mounted on /data.
+type userdata_block_device, dev_type;
+
+# Cache block device mounted on /cache.
+type cache_block_device, dev_type;
+
+# Block device for any swap partition.
+type swap_block_device, dev_type;
+
+# Metadata block device used for encryption metadata.
+# Assign this type to the partition specified by the encryptable=
+# mount option in your fstab file in the entry for userdata.
+type metadata_block_device, dev_type;
+
+#add by aggresss
+type hello_device, dev_type;
