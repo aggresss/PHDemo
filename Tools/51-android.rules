@@ -1,0 +1,8 @@
+#Mi3W normal mode
+SUBSYSTEM=="usb",ATTR{idVendor}=="2717",ATTR{idProduct}=="0360",MODE="0666"
+#Mi3W developer mode
+SUBSYSTEM=="usb",ATTR{idVendor}=="2717",ATTR{idProduct}=="0368",MODE="0666"
+#Mi3W fastboot  mode
+SUBSYSTEM=="usb",ATTR{idVendor}=="18d1",ATTR{idProduct}=="d00d",MODE="0666"
+#cyanogenmod recovry mode
+SUBSYSTEM=="usb",ATTR{idVendor}=="18d1",ATTR{idProduct}=="d001",MODE="0666"
