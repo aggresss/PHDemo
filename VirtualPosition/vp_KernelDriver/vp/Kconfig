@@ -1,0 +1,5 @@
+ config VP
+           tristate "Virtual Position Driver"
+           default n
+           help
+           This is the virtual position driver.

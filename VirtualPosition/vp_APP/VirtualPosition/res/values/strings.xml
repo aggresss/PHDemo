@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VirtualPosition</string>
+    <string name="altitude">_altitude_</string>
+    <string name="longitude">longitude</string>
+    <string name="toggle">toggle</string>
+    <string name="hint_altitude">Input altitude</string>
+    <string name="hint_longitude">Input longitude</string>
+    <string name="get">GET</string>
+    <string name="set">SET</string>
+    <string name="clear">CLEAR</string>
+</resources>
