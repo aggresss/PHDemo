@@ -1,6 +1,6 @@
 # PHDemo
 《手机就是开发板》 目录
-第一期 前言 http://blog.csdn.net/aggresss/article/details/53364324
+##### 第一期 前言 http://blog.csdn.net/aggresss/article/details/53364324
 第二期 AOSP 环境搭建、下载和编译 http://blog.csdn.net/aggresss/article/details/53393511
 第三期 Android Kernel 下载和编译 http://blog.csdn.net/aggresss/article/details/53461464
 第四期 Android Studio 开发环境搭建和Helloworld演示 http://blog.csdn.net/aggresss/article/details/53525468
